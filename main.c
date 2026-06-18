@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "funcao_multiplicacao.h"
 
 // Inclua os headers das funções aqui
 // #include "funcao_soma.h"
@@ -19,8 +20,8 @@ int main() {
     // int resultado_subtracao = subtrair(20, 8);
     // printf("Subtracao (20 - 8): %d\n", resultado_subtracao);
 
-    // int resultado_multiplicacao = multiplicar(7, 6);
-    // printf("Multiplicacao (7 * 6): %d\n", resultado_multiplicacao);
+    int resultado_multiplicacao = multiplicar(7, 6);
+    printf("Multiplicacao (7 * 6): %d\n", resultado_multiplicacao);
 
     // float resultado_divisao = dividir(100.0, 4.0);
     // printf("Divisao (100.0 / 4.0): %.2f\n", resultado_divisao);
